@@ -1,7 +1,7 @@
 # 💫Mykhailo Bonk💫
 
 **Senior Fullstack & Blockchain Developer**  
-📍 Lviv, Ukraine | ✉️ mykhailobonk@gmail.com | ⭐ [Telegram](https://t.me/code_lover_1122) | - 🔗 [LinkedIn](https://www.linkedin.com/in/mykhailo-bonk-331a46351)  
+✉️ mykhailobonk@gmail.com | ⭐ [Telegram](https://t.me/code_lover_1122) | - 🔗 [LinkedIn](https://www.linkedin.com/in/mykhailo-bonk-331a46351)  
 
 ---
 
