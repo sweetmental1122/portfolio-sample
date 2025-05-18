@@ -2,7 +2,29 @@ import { useEffect, useState } from "react";
 
 import Link from "next/link";
 import {routes} from "@/data/global";
-import useDelayedRender from "use-delayed-render";
+
+function useDelayedRender(show: boolean, options = { enterDelay: 0, exitDelay: 0 }) {
+  const [mounted, setMounted] = useState(false);
+  const [rendered, setRendered] = useState(false);
+
+  useEffect(() => {
+    if (show) {
+      setMounted(true);
+      const timer = setTimeout(() => {
+        setRendered(true);
+      }, options.enterDelay);
+      return () => clearTimeout(timer);
+    } else {
+      setRendered(false);
+      const timer = setTimeout(() => {
+        setMounted(false);
+      }, options.exitDelay);
+      return () => clearTimeout(timer);
+    }
+  }, [show, options.enterDelay, options.exitDelay]);
+
+  return { mounted, rendered };
+}
 
 export default function MobileNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
