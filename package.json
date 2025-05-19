@@ -29,6 +29,7 @@
     "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.11.1",
     "@types/node": "^17.0.18",
     "@types/react": "^17.0.39",
     "autoprefixer": "^10.2.6",
