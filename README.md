@@ -1,7 +1,7 @@
 # 💫Mykhailo Bonk💫
 
 **Senior Fullstack & Blockchain Developer**  
-✉️ mykhailobonk@gmail.com | ⭐ [Telegram](https://t.me/code_lover_1122) | - 🔗 [LinkedIn](https://www.linkedin.com/in/mykhailo-bonk-331a46351)  
+✉️ mishabonk0206@gmail.com | ⭐ [Telegram](https://t.me/code_lover_1122) | - 🔗 [LinkedIn](https://www.linkedin.com/in/mykhailo-bonk-331a46351)  
 
 ---
 
